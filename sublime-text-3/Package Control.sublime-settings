@@ -1,0 +1,15 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"EditorConfig",
+		"GitGutter",
+		"Handlebars",
+		"LESS",
+		"Monokai Extended",
+		"Sass",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"Theme - Phoenix"
+	]
+}

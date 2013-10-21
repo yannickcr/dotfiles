@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+m"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+alt+a"], "command": "alignment" }
+]
