@@ -3,13 +3,18 @@
 	[
 		"Alignment",
 		"EditorConfig",
-		"GitGutter",
 		"Handlebars",
 		"LESS",
 		"Monokai Extended",
 		"Sass",
 		"SideBarEnhancements",
 		"SmartMarkdown",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeLinter-scss-lint",
 		"Theme - Phoenix"
 	]
 }
