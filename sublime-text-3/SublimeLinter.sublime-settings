@@ -1,22 +1,60 @@
-/*
-	SublimeLinter user settings
-*/
 {
-	"sublimelinter_mark_style": "fill",
-	"jshint_options" : {
-		"node"     : true,
-		"browser"  : true,
-		"esnext"   : true,
-		"bitwise"  : true,
-		"immed"    : true,
-		"latedef"  : true,
-		"newcap"   : true,
-		"noarg"    : true,
-		"regexp"   : true,
-		"undef"    : true,
-		"unused"   : true,
-		"trailing" : true,
-		"smarttabs": true,
-		"jquery"   : true
-	}
+    "user": {
+        "debug": false,
+        "delay": 0.25,
+        "error_color": "FF4A52",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
+        "linters": {
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "htmltidy": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "jscs": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "scss": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "fill",
+        "no_column_highlights_line": true,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "show_errors_on_save": false,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "php": "html"
+        },
+        "warning_color": "DF9400",
+        "wrap_find": true
+    }
 }
