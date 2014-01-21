@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_order": "inactive",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"color_scheme": "Packages/User/Monokai Extended (SL).tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -12,7 +12,9 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules",
+		".sass-cache"
 	],
 	"font_size": 14,
 	"highlight_line": true,
@@ -25,6 +27,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"phoenix_color_orange": true,
+	"phoenix_color_expanded_folder": true,
 	"phoenix_dirty_bottom_bar": true,
 	"phoenix_dirty_bottom_bar_red": true,
 	"phoenix_solid_current_tab": true,
@@ -33,8 +36,6 @@
 		80,
 		120
 	],
-	"sublimelinter_fill_outlines": true,
-	"sublimelinter_gutter_marks": false,
 	"tab_number_limit": 10,
 	"theme": "Phoenix Dark.sublime-theme",
 	"trim_automatic_white_space": true,
