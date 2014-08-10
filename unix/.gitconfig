@@ -1,0 +1,19 @@
+
+[user]
+	name = Yannick Croissant
+	email = yannick.croissant@gmail.com
+
+[diff]
+	external = git-meld
+[color]
+	ui = true
+[branch]
+	autosetupmerge = true
+[alias]
+	st = status -sb
+	cm = commit
+	co = checkout
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	logs = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
