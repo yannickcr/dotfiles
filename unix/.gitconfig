@@ -2,9 +2,6 @@
 [user]
 	name = Yannick Croissant
 	email = yannick.croissant@gmail.com
-
-[diff]
-	external = git-meld
 [color]
 	ui = true
 [branch]
