@@ -24,44 +24,59 @@
 [layouts]
   [[default]]
     [[[child0]]]
-      position = 0:0
-      type = Window
+      fullscreen = False
+      last_active_term = 41833b8a-a6a0-4adb-8bcc-0a518c07aace
+      last_active_window = True
+      maximised = True
       order = 0
       parent = ""
-      size = 1920, 1055
+      position = 968:1080
+      size = 1920, 1044
+      title = /bin/zsh
+      type = Window
     [[[child1]]]
-      position = 960
-      type = HPaned
       order = 0
       parent = child0
+      position = 958
+      ratio = 0.49921875
+      type = HPaned
     [[[child2]]]
-      position = 527
-      type = VPaned
       order = 0
       parent = child1
+      position = 521
+      ratio = 0.499521072797
+      type = VPaned
     [[[child5]]]
-      position = 527
-      type = VPaned
       order = 1
       parent = child1
+      position = 521
+      ratio = 0.499521072797
+      type = VPaned
     [[[terminal3]]]
-      profile = default
-      type = Terminal
       order = 0
       parent = child2
+      profile = default
+      type = Terminal
+      uuid = 41833b8a-a6a0-4adb-8bcc-0a518c07aace
     [[[terminal4]]]
-      profile = default
-      type = Terminal
+      command = ""
       order = 1
       parent = child2
-    [[[terminal7]]]
       profile = default
       type = Terminal
-      order = 1
-      parent = child5
+      uuid = 65a6b4d5-ee8b-4d77-ac3b-e52c9cc7e2c6
     [[[terminal6]]]
-      profile = default
-      type = Terminal
+      command = ""
       order = 0
       parent = child5
+      profile = default
+      type = Terminal
+      uuid = 613bb324-68eb-4a4b-a206-e97d5ed17132
+    [[[terminal7]]]
+      command = ""
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 4acd5023-a0ef-4024-846e-52a9163a4800
 [plugins]
