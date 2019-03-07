@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Config files for Sublime Text, Zsh, Git and more
+Config files for Zsh, Git and more
