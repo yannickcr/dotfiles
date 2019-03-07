@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/home/yannick/.bin:/home/yannick/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/home/yannick/.bin:/home/yannick/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$PATH:./node_modules/.bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -122,12 +122,13 @@ elif type compctl &>/dev/null; then
 fi
 ###-end-npm-completion-###
 
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
 
 eval `dircolors $HOME/.ls_colors`
 
-export PLATFORM_ENV='dev'
+export NODE_ENV='development'
 
 export TERM=xterm-256color
 
 alias ll='ls -la'
-alias npm-search='npm search --registry=http://registry.npmjs.org --_auth= --always-auth=false'
