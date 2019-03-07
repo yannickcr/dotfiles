@@ -1,4 +1,0 @@
-[
-	{ "keys": ["super+m"], "command": "toggle_side_bar" },
-	{ "keys": ["super+alt+a"], "command": "alignment" },
-]
