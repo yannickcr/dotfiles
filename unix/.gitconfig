@@ -14,3 +14,20 @@
 	branches = branch -a
 	remotes = remote -v
 	logs = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+	# F*ck the police
+	yolo = commit --amend --no-edit --reset-author --no-verify
+
+	# Sync fork with original repository
+	#
+	# Requires an "upstream" remote, pointing to original repo
+	# e.g. `git remote add upstream git@github.com:user/repo.git`
+	sync = !sh -c 'git fetch upstream && git checkout master && git merge upstream/master && git push origin master' -
+[push]
+	default = simple
+[mergetool]
+	keepBackup = false
+[rerere]
+	enabled = true
+[diff]
+	compactionHeuristic = true
